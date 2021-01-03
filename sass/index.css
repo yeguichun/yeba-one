@@ -1,0 +1,158 @@
+.container{
+   width: 1226px;
+   margin: 0 auto;
+}
+#header{
+    width: 100%;
+    /* position: relative; */
+}
+#header .head-img{
+    display: inline-block;
+   width: 100%;
+    height: 120px;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/717ab555092563ae0751a7069f0b11da.jpeg?w=5120&h=240") no-repeat center center;
+    background-size: cover;
+} 
+ img{
+    display: inline-block;
+     width: 100%; 
+    
+} 
+#header .header-nav{
+    background-color: #333333;
+    /* width: 100%; */
+    height: 40px;
+    line-height: 40px;
+   
+}
+
+.header-nav .header-nav-left{
+   float: left;
+}
+.header-nav .header-nav-left li,.header-nav  .header-nav-right li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    font-size: 0;
+}
+.header-nav .header-nav-left a{
+    display: inline-block;
+    margin: 0 8px;
+    color: #909090;
+    font-size: 13px;
+}
+.header-nav .header-nav-left li:nth-child(1) a{
+    margin-left: 0;
+}
+.header-nav .header-nav-left li:not(:last-child):after,.header-nav .header-nav-right li:nth-child(-n+2):after{
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #383937;
+    position: absolute;
+    top: 17px;
+}
+.header-nav  .header-nav-right{
+    float: right;
+}
+.header-nav .header-nav-right a{
+    display: inline-block;
+    color: #909090;
+    font-size: 13px;
+
+} 
+.header-nav .header-nav-right li:not(:last-child)  a{
+    margin: 0 6px;
+}
+
+.header-nav .header-nav-right li:nth-child(4) a{
+   width: 120px;
+   height: 100%;
+   text-align: center;
+   background: #424242;
+    margin-left: 10px; 
+}
+.header-nav .header-nav-right li:not(:last-child) a:hover,.header-nav .header-nav-left li a:hover{
+    color: #ffffff;
+}
+ .header-nav .header-nav-right li:last-child a:hover{
+     color: #ff822d;
+     background:#ffffff;
+ }
+ #header .header-site{
+   height: 100px;
+ }
+ #header .header-site .header-site-left{
+      float: left;
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+      background: #ff6700;
+      margin-top: 22px;
+       overflow: hidden; 
+      position: relative;
+ }
+ .header-site .header-site-left .site-left-mi{
+     display: inline-block;
+     width:55px;
+     height: 55px;
+     background: url(http://s02.mifile.cn/assets/static/image/mi-logo.png) no-repeat center center;
+     transition: .2s linear;
+ }
+ .header-site .header-site-left .site-left-home{
+    display: inline-block;
+    position: absolute;
+    left: -55px;
+    width:55px;
+    height: 55px;
+    background: url(http://s02.mifile.cn/assets/static/image/mi-home.png) no-repeat center center ;
+    transition: .2s linear;
+ }
+ .header-site .header-site-left:hover .site-left-mi{
+        transform: translateX(55px);
+ }
+ .header-site .header-site-left:hover .site-left-home{
+    transform: translateX(55px);
+}
+ .header-site .header-site-center{
+     float: left;
+     line-height: 100px;
+     margin-left: 189px;
+     /* margin-right:60px; */
+ }
+ .header-site-center ul li{
+     font-size: 16px;
+     margin-right: 22px;
+     float: left;
+
+ }
+ .header-site .header-site-right{
+     float: right;
+     width: 294px;
+      height: 50px; 
+     border: 1px solid #c9c4c4;
+     margin-top: 22px;
+ } 
+ .header-site-right  .site-right-text{
+     width: 243px;
+     height: 50px;
+     border: none;
+     text-indent: 1em;
+ }
+ .header-site-right   a{
+     display: inline-block;
+     width: 50px;
+      height: 50px; 
+     border-left: 1px solid #c9c4c4; 
+     text-align: center;
+     font-size: 30px;
+ }
+ .header-site-right  a{
+     line-height: 53px;
+ }
+ .header-site-right  a:hover {
+     background: #ff6700;
+     color: #ffffff;
+ }
+ 

@@ -1,0 +1,12 @@
+.container{
+    width: 1226px;
+    margin: 0 auto;
+ }
+#login-logo{
+    width: 100%;
+    margin: 0 auto;
+}
+.login-top-logo{
+    width: 200px;
+    height: 98px;
+}
